@@ -1,0 +1,70 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0 auto; 
+    border-radius: 10px; 
+  }
+  
+  .slides {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+  }
+  
+  .carousel {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slide {
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+    padding-bottom: 0.5%;
+    position: relative;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    max-width: 5000px;
+    max-height: 550px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px; 
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .prev {
+    left: 5vw;
+    bottom: 5vh;
+  }
+  
+  .next {
+    right: 5vw;
+    bottom: 5vh;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-size: 12px;
+    background-image: url("assets\\imgs\\bg.png");
+  }
+  
